@@ -19,6 +19,7 @@ Premièrement je maintenais ce projet depuis plusieurs années presque complète
 
 Deuxièmement, le CMS est en développement depuis plusieurs années sur un vieux framework, le code est vieux et j'ai évolué depuis le début, une refonte sera nécessaire pour rajouter des fonctionnalités intéressantes et maintenir correctement le projet mais le manque de temps et de motivation ne m'ont pas permis de le faire.
 
+
 Troisièmement je ne tenais pas a faire disparaitre le CMS et empêcher mes anciens utilisateurs de l'utiliser. De plus, cela ajoute du contenu sur mon Github. 
 
 ### Statistiques
@@ -48,4 +49,16 @@ Il vaut mieux créer plusieurs branches (_dev_ pour le développement par exempl
 
 Si vous souhaitez contribuer au CMS vous êtes libres de soumettre des pull-requests que je me ferait une joie de regarder et merge.
 De plus vous pouvez également encore développer des thèmes ou des plugins pour la communauté. 
-# MineWebCMS
+
+## Hébergeurs compatible
+
+L'hébergeur Revolta-hosting est 100% compatible avec le cms, vous pouvez aussi utiliser heroku sur cette version adaptée de mineweb (voir section heroku).
+
+##Heroku
+
+Pour utiliser le cms avec heroku, vous devez fork la repository d'Azrty (Azrty/MineWebCMS) et suivre les étapes suivantes:
+
+1. Lier votre fork de cette repository à votre application heroku.
+2. Vous devez déployer votre application via la liaison effectué précédament.
+3. Vous devez configurer les variables host, login, database et password selon votre base de donné mysql.
+4. Ouvrir l'application heroku puis configurer votre compte
