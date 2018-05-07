@@ -1,0 +1,11 @@
+{
+    "name": "MineWebCMS",
+    "description": "cms.",
+    "keywords": ["minecraftcms", "cms"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "7.0.27",
+        "ext-gd": ">=2.5"
+    }
+}
