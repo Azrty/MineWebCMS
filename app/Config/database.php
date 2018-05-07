@@ -8,7 +8,7 @@ class DATABASE_CONFIG {
         'login' => $_ENV["login"],
         'password' => $_ENV["password"],
         'database' => $_ENV["database"],
-        'encoding' => 'utf8',
+        'encoding' => 'utf8'
     );
 }
 
