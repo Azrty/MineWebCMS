@@ -9,10 +9,10 @@ class DATABASE_CONFIG {
     public $default = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
-        'host' => $_dbhost,
-        'login' => $_dblogin,
-        'password' => $_dbpassword,
-        'database' => $_dbdatabase,
+        'host' => '$_dbhost',
+        'login' => '$_dblogin',
+        'password' => '$_dbpassword',
+        'database' => '$_dbdatabase',
         'encoding' => 'utf8'
     );
 }
