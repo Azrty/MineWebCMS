@@ -4,10 +4,10 @@ class DATABASE_CONFIG {
     public $default = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
-        'host' => '$ENV["host"]',
-        'login' => '$ENV["login"]',
-        'password' => '$ENV["password"]',
-        'database' => '$ENV["database"],
+        'host' => 'process.env.host',
+        'login' => 'process.env.login',
+        'password' => 'process.env.password',
+        'database' => 'process.env.database',
         'encoding' => 'utf8'
     );
 }
